@@ -1,10 +1,12 @@
 import UIKit
 
-public class UISlideLabel: UIView {
+public class UICelebrator: UIView {
     public private(set) var text = "Hello, World!"
 
     public override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        backgroundColor = .cyan
     }
     
     @available(*, unavailable)
