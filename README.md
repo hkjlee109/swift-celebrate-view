@@ -1,4 +1,3 @@
 # swift-celebrate-view
 
-https://user-images.githubusercontent.com/8350795/218260837-67b704b0-9364-4c4a-bd87-f4fba08bb7df.mov
-
+![swift-celebrate-view-demo](https://user-images.githubusercontent.com/8350795/218261485-375e5d7c-fc68-4503-9894-ce1f88b228e2.gif)
