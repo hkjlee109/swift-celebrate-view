@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B202AA2997CDFD0005AEB3 /* UICelebrateView in Frameworks */ = {isa = PBXBuildFile; productRef = 74B202A92997CDFD0005AEB3 /* UICelebrateView */; };
 		74FFAA5C298E970D00059E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFAA5B298E970D00059E12 /* AppDelegate.swift */; };
 		74FFAA5E298E970D00059E12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFAA5D298E970D00059E12 /* SceneDelegate.swift */; };
 		74FFAA60298E970D00059E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FFAA5F298E970D00059E12 /* ViewController.swift */; };
 		74FFAA63298E970D00059E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA61298E970D00059E12 /* Main.storyboard */; };
 		74FFAA65298E970F00059E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA64298E970F00059E12 /* Assets.xcassets */; };
 		74FFAA68298E970F00059E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA66298E970F00059E12 /* LaunchScreen.storyboard */; };
-		74FFAA7329904FCE00059E12 /* UICelebrateView in Frameworks */ = {isa = PBXBuildFile; productRef = 74FFAA7229904FCE00059E12 /* UICelebrateView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74B202A82997CDD30005AEB3 /* swift-celebrate-view */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swift-celebrate-view"; path = ../..; sourceTree = "<group>"; };
 		74FFAA59298E970D00059E12 /* UIKitCaseStudies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCaseStudies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FFAA5B298E970D00059E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74FFAA5D298E970D00059E12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		74FFAA64298E970F00059E12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74FFAA67298E970F00059E12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74FFAA69298E970F00059E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74FFAA6E298E980E00059E12 /* swift-celebrator */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "swift-celebrator"; path = ../..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FFAA7329904FCE00059E12 /* UICelebrateView in Frameworks */,
+				74B202AA2997CDFD0005AEB3 /* UICelebrateView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,7 @@
 		74FFAA35298E966A00059E12 = {
 			isa = PBXGroup;
 			children = (
-				74FFAA6E298E980E00059E12 /* swift-celebrator */,
+				74B202A82997CDD30005AEB3 /* swift-celebrate-view */,
 				74FFAA5A298E970D00059E12 /* UIKitCaseStudies */,
 				74FFAA3F298E966A00059E12 /* Products */,
 				74FFAA6F298E982900059E12 /* Frameworks */,
@@ -96,7 +96,7 @@
 			);
 			name = UIKitCaseStudies;
 			packageProductDependencies = (
-				74FFAA7229904FCE00059E12 /* UICelebrateView */,
+				74B202A92997CDFD0005AEB3 /* UICelebrateView */,
 			);
 			productName = UIKitCaseStudies;
 			productReference = 74FFAA59298E970D00059E12 /* UIKitCaseStudies.app */;
@@ -375,7 +375,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		74FFAA7229904FCE00059E12 /* UICelebrateView */ = {
+		74B202A92997CDFD0005AEB3 /* UICelebrateView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UICelebrateView;
 		};
