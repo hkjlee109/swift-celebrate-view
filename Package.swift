@@ -3,17 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-celebrator",
+    name: "swift-celebrate-view",
+    platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "UICelebrator",
-            targets: ["UICelebrator"]),
+            name: "UICelebrateView",
+            targets: ["UICelebrateView"]
+        ),
     ],
     dependencies: [
     ],
     targets: [
         .target(
-            name: "UICelebrator",
-            dependencies: [])
+            name: "UICelebrateView",
+            dependencies: [],
+            resources: [.process("Resources/")]
+        )
     ]
 )

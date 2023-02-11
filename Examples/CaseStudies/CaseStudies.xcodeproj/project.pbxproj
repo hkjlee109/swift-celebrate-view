@@ -13,7 +13,7 @@
 		74FFAA63298E970D00059E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA61298E970D00059E12 /* Main.storyboard */; };
 		74FFAA65298E970F00059E12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA64298E970F00059E12 /* Assets.xcassets */; };
 		74FFAA68298E970F00059E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FFAA66298E970F00059E12 /* LaunchScreen.storyboard */; };
-		74FFAA71298E982900059E12 /* UICelebrator in Frameworks */ = {isa = PBXBuildFile; productRef = 74FFAA70298E982900059E12 /* UICelebrator */; };
+		74FFAA7329904FCE00059E12 /* UICelebrateView in Frameworks */ = {isa = PBXBuildFile; productRef = 74FFAA7229904FCE00059E12 /* UICelebrateView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74FFAA71298E982900059E12 /* UICelebrator in Frameworks */,
+				74FFAA7329904FCE00059E12 /* UICelebrateView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			);
 			name = UIKitCaseStudies;
 			packageProductDependencies = (
-				74FFAA70298E982900059E12 /* UICelebrator */,
+				74FFAA7229904FCE00059E12 /* UICelebrateView */,
 			);
 			productName = UIKitCaseStudies;
 			productReference = 74FFAA59298E970D00059E12 /* UIKitCaseStudies.app */;
@@ -375,9 +375,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		74FFAA70298E982900059E12 /* UICelebrator */ = {
+		74FFAA7229904FCE00059E12 /* UICelebrateView */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = UICelebrator;
+			productName = UICelebrateView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
